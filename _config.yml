@@ -1,1 +1,5 @@
 theme: jekyll-theme-minimal
+
+social:
+  - icon: medium
+    link: "https://medium.com/@usefusefi"
