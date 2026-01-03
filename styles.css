@@ -88,7 +88,7 @@ body {
 }
 
 .cursor {
-    display: inline-block;
+    position: absolute;
     color: var(--color-accent);
     -webkit-text-fill-color: var(--color-accent);
     animation: blink 1s step-end infinite;
@@ -108,7 +108,7 @@ body {
     }
 }
 
-.title {
+/* .title {
     font-family: 'Inter', sans-serif;
     font-size: clamp(0.9rem, 2.5vw, 1.1rem);
     color: rgba(255, 255, 255, 0.95);
@@ -119,8 +119,18 @@ body {
     animation: fadeInUp 1s ease forwards;
     animation-delay: 2.2s;
     opacity: 0;
-}
+} */
 
+.title {
+    font-size: clamp(1rem, 3vw, 1.25rem);
+    font-weight: 300;
+    color: var(--color-text-secondary);
+    margin-bottom: 3rem;
+    letter-spacing: 0.05em;
+    animation: fadeInUp 1s ease forwards;
+    animation-delay: 2.2s;
+    opacity: 0;
+}
 
 
 .links {
